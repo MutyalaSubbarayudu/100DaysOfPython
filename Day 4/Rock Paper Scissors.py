@@ -42,23 +42,23 @@ else:
 
   print(game_control_list[bot_input])
 
-  if user_input==bot_input:
-    print("Its a draw")
-  elif user_input == 0:
-    if bot_input == 1:
-      print ("You lose")
-    elif bot_input == 2:
-      print ("You win")
-  elif user_input == 1:
-    if bot_input == 0:
-      print("You win")
-    elif bot_input == 2:
-      print("You lose")
-  elif user_input == 2:
-    if bot_input == 0:
-      print("You lose")
-    elif bot_input == 1:
-      print("You win")
+#   if user_input==bot_input:
+#     print("Its a draw")
+#   elif user_input == 0:
+#     if bot_input == 1:
+#       print ("You lose")
+#     elif bot_input == 2:
+#       print ("You win")
+#   elif user_input == 1:
+#     if bot_input == 0:
+#       print("You win")
+#     elif bot_input == 2:
+#       print("You lose")
+#   elif user_input == 2:
+#     if bot_input == 0:
+#       print("You lose")
+#     elif bot_input == 1:
+#       print("You win")
 
 
   if user_input == bot_input:
